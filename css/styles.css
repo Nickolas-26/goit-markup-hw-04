@@ -7,6 +7,7 @@
   --primari-hero-color: #2f303a;
   --primari-team-color: #f5f4fa;
   --hover-btn-color:#188CE8;
+  --icon-color:#AFB1B8
 }
 h1,h2,h3,h4,h5,h6{
   margin: 0;
@@ -276,6 +277,45 @@ padding-bottom: 47px;
 .feature-item:not(:last-child){
   margin-right: 30px;
 }
+/* CSS Icons */
+.icon{
+  width: 270px;
+  height: 120px;
+  background-color: var(--primari-team-color);
+  margin-bottom: 30px;
+}
+
+.icon-1{
+  width: 65px;
+  height: 70px;
+  margin: 25px 102px;
+  
+}
+.icon-2{
+  width: 67px;
+  height: 70px;
+  margin: 25px 100px;
+}
+.icon-3{
+  width: 70px;
+  height: 54px;
+  margin: 33px 100px;
+}
+
+.icon-4{
+  width: 70px;
+  height: 70px;
+  margin: 30px 100px;
+
+}
+
+.team-icon-1{
+  width: 44px;
+  height: 44px;
+  background-color:var(--icon-color);
+  
+}
+
 .container{
     width: 1200px;
     margin-left: auto;
@@ -436,3 +476,15 @@ padding-bottom: 47px;
   color: var(--primari-accent-color);
 }
 
+/* overlay */
+
+.overlay{
+  max-width: 1600px;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image:linear-gradient(to right,
+  rgba(47, 48, 58, 0.4),
+  rgba(47, 48, 58, 0.4)),
+  url(../images/overlay/overlay-hero.jpg);
+  
