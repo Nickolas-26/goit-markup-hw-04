@@ -45,7 +45,6 @@ button {
 
 }
 .page {
-  background-color: var(--primari-background-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -131,12 +130,6 @@ span.logo-style-white {
   color: var(--primari-accent-color);
  
 }
-
-.link-logo-mail::before{
-  content:url(../images/link-logo/mail.png);
-  color: #757575;
-  }
-
 .auth-nav {
   margin-left: auto;
   display: flex;
@@ -144,13 +137,21 @@ span.logo-style-white {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primari-text-color);
   
-
 }
+.mail-icon{
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
 .link-item{
   margin-right: 50px;
 }
+.link-item:hover{
+  color: var(--primari-accent-color);
+}
+
 /* list */
 .list{
   padding-top: 0px;
@@ -195,6 +196,8 @@ span.logo-style-white {
   font-style: normal;
   font-weight: 700;
   line-height: 1.62;
+  border: 0;
+  border-radius: 4px;
 }
 
 
@@ -213,6 +216,8 @@ span.logo-style-white {
   margin-right: 8px;
   background-color: #F5F4FA;;
   color:var(--primari-tittle-color);
+  border-radius: 4px;
+  border: 0;
   
   font-family: Roboto;
   font-size: 16px;
@@ -221,10 +226,8 @@ span.logo-style-white {
   line-height: 1.62;
 }
 .nav-class{
-  
   display: flex;
   justify-content: center;
-  
   margin-bottom: 50px;
 }
 
@@ -284,8 +287,8 @@ padding-bottom: 47px;
 }
 /* CSS Icons */
 .icon{
-  width: 270px;
-  height: 120px;
+  display: flex;
+  justify-content: center;
   background-color: var(--primari-team-color);
   margin-bottom: 30px;
 }
@@ -332,11 +335,8 @@ padding-bottom: 47px;
 }
 .team-icons{
   display: flex;
-  justify-content: ;
   margin-top: 16px;
-  margin-bottom: 30px;
-  margin-left: 32px;
-  margin-right: 32px;
+  justify-content: center;
   
 
 
@@ -362,7 +362,7 @@ padding-bottom: 47px;
 .product-tittle {
   margin-bottom: 50px;
   font-family: Roboto;
-  font-style: normal;
+  font-style: normal;ƒ
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -571,12 +571,18 @@ border-radius: 0px 0px 4px 4px;
 }
 .footer-item{
   margin-bottom: 20px;
-  color: white
+  font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+ color: var(--primari-white-color);
 }
 /* clients */
 
 .clients{
-  background-color: var(--primari-background-color);
   padding-top: 94px;
   margin-bottom: 94px;
   
@@ -616,11 +622,13 @@ border-radius: 0px 0px 4px 4px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
 }
-.clients-link:hover{
+.clients-link:hover,
+.clients-link:focus{
   border-color: var(--primari-accent-color);
 
 }
-.clients-link:hover .clients-icon{
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon{
   fill: var(--primari-accent-color);
 }
 
