@@ -143,6 +143,7 @@ span.logo-style-white {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .link-item{
@@ -287,7 +288,10 @@ padding-bottom: 47px;
 }
 /* CSS Icons */
 .icon{
+  width: 270px;
+  height: 120px;
   display: flex;
+  align-items: center;
   justify-content: center;
   background-color: var(--primari-team-color);
   margin-bottom: 30px;
@@ -296,24 +300,26 @@ padding-bottom: 47px;
 .icon-1{
   width: 65px;
   height: 70px;
-  margin: 25px 100px;
+  
   
 }
 .icon-2{
   width: 67px;
   height: 70px;
-  margin: 25px 100px;
+  
 }
 .icon-3{
   width: 70px;
   height: 54px;
-  margin: 33px 100px;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon-4{
   width: 70px;
   height: 70px;
-  margin: 30px 100px;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -421,7 +427,6 @@ padding-bottom: 47px;
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
-  
   background-color:#F5F4FA;
 }
 .team-tittle {
@@ -450,6 +455,7 @@ padding-bottom: 47px;
 
 }
 .team-list{
+  background-color: #fff;
   margin-right: 30px;
  text-align: center;
  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -584,7 +590,7 @@ text-transform: uppercase;
 
 .clients{
   padding-top: 94px;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
   
 }
 
